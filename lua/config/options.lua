@@ -4,3 +4,6 @@
 
 vim.g.snacks_animate = false
 
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+

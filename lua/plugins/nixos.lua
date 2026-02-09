@@ -26,6 +26,7 @@ return {
 
             enable_lsp("bashls", opts)
             enable_lsp("clangd", opts)
+            enable_lsp("nix_ls", opts)
             enable_lsp("ocamllsp", opts)
             enable_lsp("pyright", opts)
             return opts

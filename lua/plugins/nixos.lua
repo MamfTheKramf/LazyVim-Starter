@@ -30,6 +30,7 @@ if on_nixos then
                 enable_lsp("ocamllsp", opts)
                 enable_lsp("pyright", opts)
                 enable_lsp("lua_ls", opts)
+                enable_lsp("intelephense", opts)
                 return opts
             end,
         }

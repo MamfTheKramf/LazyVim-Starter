@@ -31,6 +31,7 @@ if on_nixos then
                 enable_lsp("pyright", opts)
                 enable_lsp("lua_ls", opts)
                 enable_lsp("intelephense", opts)
+                enable_lsp("html", opts)
                 return opts
             end,
         }
